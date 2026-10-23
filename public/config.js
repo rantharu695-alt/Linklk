@@ -3,7 +3,7 @@
 //  (නම, logo, වර්ණ, අකුරු, ad links, තත්පර ගණන්...)
 // ======================================================
 window.SITE_CONFIG = {
-  siteName: "හෙල රැව්ලා",
+  siteName: "JilZone",
   logo: "logo.svg",              // public/ ෆෝල්ඩරයට ඔබේ logo.png දාලා මෙතන නම වෙනස් කරන්න
   statusDot: True,               // ඉහළ දකුණේ කොළ පාට තිත
 
