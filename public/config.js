@@ -5,7 +5,7 @@
 window.SITE_CONFIG = {
   siteName: "හෙල රැව්ලා",
   logo: "logo.svg",              // public/ ෆෝල්ඩරයට ඔබේ logo.png දාලා මෙතන නම වෙනස් කරන්න
-  statusDot: False,               // ඉහළ දකුණේ කොළ පාට තිත
+  statusDot: True,               // ඉහළ දකුණේ කොළ පාට තිත
 
   badge: "SECURE LINK UNLOCK",
   title1: "UNLOCK",
