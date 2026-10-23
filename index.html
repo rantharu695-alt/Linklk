@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Unlock Your Link</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Fredoka:wght@400;500;600&family=Noto+Sans+Sinhala:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div class="brand"><img id="logo" alt=""><span id="siteName"></span></div>
+      <div class="right">
+        <span class="dot" id="dot"></span>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <nav class="menu" id="menu" hidden></nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="pill" id="badge"></div>
+      <h1><span id="t1"></span><span id="t2"></span></h1>
+      <p class="sub" id="subtitle"></p>
+    </section>
+
+    <div id="invalid" class="invalid" hidden>
+      <h2 id="invalidTitle"></h2>
+      <p id="invalidText"></p>
+    </div>
+
+    <div id="app">
+      <div class="bar"><div class="fill" id="fill"></div></div>
+      <p class="count" id="count"></p>
+      <div class="pill secure" id="secure"></div>
+
+      <div id="steps" class="steps"></div>
+      <button class="final" id="final" disabled></button>
+
+      <aside class="important" id="important"></aside>
+      <section class="howto" id="howto"></section>
+    </div>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
